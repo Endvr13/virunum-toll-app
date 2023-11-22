@@ -6,7 +6,7 @@ function App() {
   const [items] = useState([
     {
       id: 1,
-      toll_image: './src/assets/single_light.svg',
+      toll_image: '/assets/single_light.svg',
       toll_vehicle: 'Single person, light load',
       price_1: 1,
       denomination_1: 'As',
@@ -15,7 +15,7 @@ function App() {
 
     {
       id: 2,
-      toll_image: './src/assets/single_heavy.svg',
+      toll_image: '/assets/single_heavy.svg',
       toll_vehicle: 'Single person, heavy load',
       price_1: 2,
       denomination_1: 'As',
@@ -24,7 +24,7 @@ function App() {
 
     {
       id: 3,
-      toll_image: './src/assets/single_cart.svg',
+      toll_image: '/assets/single_cart.svg',
       toll_vehicle: 'Single person, hand-drawn cart',
       price_1: 1,
       denomination_1: 'Dupondius',
@@ -35,7 +35,7 @@ function App() {
 
     {
       id: 4,
-      toll_image: './src/assets/horse_rider.svg',
+      toll_image: '/assets/horse_rider.svg',
       toll_vehicle: '1 horse + rider',
       price_1: 2,
       denomination_1: 'Dupondius',
@@ -44,7 +44,7 @@ function App() {
 
     {
       id: 5,
-      toll_image: './src/assets/horse_cart.svg',
+      toll_image: '/assets/horse_cart.svg',
       toll_vehicle: 'Horse-drawn cart, 1 horse',
       price_1: 3,
       denomination_1: 'Dupondius',
@@ -52,7 +52,7 @@ function App() {
     },
     {
       id: 6,
-      toll_image: './src/assets/horse_cart.svg',
+      toll_image: '/assets/horse_cart.svg',
       toll_vehicle: 'Horse-drawn cart, 2-3 horses',
       price_1: 4,
       denomination_1: 'Dupondius',
@@ -60,7 +60,7 @@ function App() {
     },
     {
       id: 7,
-      toll_image: './src/assets/horse_cart.svg',
+      toll_image: '/assets/horse_cart.svg',
       toll_vehicle: 'Horse-drawn cart, 4-5 horses',
       price_1: 1,
       denomination_1: 'Denarius',
@@ -68,7 +68,7 @@ function App() {
     },
     {
       id: 8,
-      toll_image: './src/assets/horse_cart.svg',
+      toll_image: '/assets/horse_cart.svg',
       toll_vehicle: 'Horse-drawn cart, 6 horses',
       price_1: 1,
       denomination_1: 'Denarius',
